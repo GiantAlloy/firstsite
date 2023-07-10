@@ -1,0 +1,138 @@
+.avatar {
+  width: 90px;
+  height: 90px;
+
+  background-image: url(./prigojin.jpg);
+  background-size: cover;
+  border-radius: 50%;
+}
+
+.header {
+    font-family: sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+    font-weight: 400;
+    margin-bottom:0;
+    margin-right: 60px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.default-font {
+font-family: sans-serif;
+font-size: 20px;
+}
+
+.subtitle {
+    font-weight: 600;
+    color: aliceblue;
+}
+
+.second-text {
+    color: rgb(142,142,142);
+}
+
+.button {
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: sans-serif;
+
+    background-color: rgb(239, 239, 239);
+    width: 250px;
+
+
+    text-align: center;
+    
+
+    padding: 7px 16px;
+
+    border-radius: 8px;
+    transition: 0.3s;
+
+    margin-left: 120px;
+    margin-bottom: 20px;
+
+
+}
+
+.button:hover {
+    background-color: rgb(219,219,219);
+    cursor: pointer;
+}
+
+.header-grid {
+    display: grid;
+    grid-template-columns: 100px 4fr;
+
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.description {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+
+.photos {
+   display: grid;
+   grid-template-columns: 1fr 1fr 1fr;
+   grid-template-rows: 1fr 1fr 1fr ;
+   
+}
+
+
+.image1 {
+    background-image: url(./VP.jpeg);
+    background-size: cover;
+    height: 240px;
+width: 300px;
+}
+
+.image2 {
+background-image: url(./prigojin.jpg);
+background-size: cover;
+height: 240px;
+width: 300px;
+}
+
+.image3 {
+    background-image: url(./photo_2023-05-12_13-40-11-979x573.jpg);
+background-size: cover;
+height: 240px;
+width: 300px;
+
+}
+
+.image4 {
+    background-image: url(./1.jpg);
+    background-size: cover;
+    height: 240px;
+width: 300px;
+margin-top: 20px;
+}
+
+.image5 {
+background-image: url(./2.jpg);
+background-size: cover;
+height: 240px;
+width: 300px;
+margin-top: 20px;
+}
+
+.image6 {
+    background-image: url(./3.jpg);
+background-size: cover;
+height: 240px;
+width: 300px;
+margin-top: 20px;
+
+}
+.back {
+    background-color: black;
+}
+
+.secondtext {
+    color: aliceblue;
+}
